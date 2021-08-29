@@ -102,10 +102,7 @@ export default {
       let newIndex = this.availableStatuses.indexOf(this.tasks[index].status);
       if (++newIndex > 2) newIndex = 0;
       this.tasks[index].status = this.availableStatuses[newIndex];
-    },
-    // firstCharUpper(str){
-    //   return str.charAt(0).toUpperCase() +str.slice(1);
-    // },
+    }
     
   },
   mounted(){
